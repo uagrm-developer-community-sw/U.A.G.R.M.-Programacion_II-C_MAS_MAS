@@ -45,7 +45,14 @@ void Mostrar_n_num_naturales(int n){
 }
 
 //---------------------------------------------------------------------------
-
+int Mostrar_numeros_naturales(int n){
+	int c=0;
+	if(n!=0){
+		Mostrar_numeros_naturales(n/10);
+		c++;
+	}
+	return c
+}
 
 
 //---------------------------------------------------------------------------
@@ -65,4 +72,5 @@ valor_entero = StrToInt(InputBox("ENTRADA DE DATOS", "Ingrese un numero entero",
 Mostrar_n_num_naturales(valor_entero);
 }
 //---------------------------------------------------------------------------
+
 

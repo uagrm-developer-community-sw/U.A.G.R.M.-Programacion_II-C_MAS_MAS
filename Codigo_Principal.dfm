@@ -126,6 +126,9 @@ object UCFormulario: TUCFormulario
             end
             item
               Caption = 'PROGRAMA QUE ELIMINA LOS DIGITOS IMPARES DE UN NUMERO'
+            end
+            item
+              Caption = 'PROGRAMA QUE CUENTA LOS NUMEROS NATURALES'
             end>
           TabOrder = 0
         end
