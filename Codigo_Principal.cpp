@@ -57,6 +57,25 @@ int Mostrar_cantidad_numeros_naturales(int n){
 	return c;
 }
 //---------------------------------------------------------------------------
+//PROGRAMA QUE MUESTRA LA CANTIDAD DE DIGITOS PARES QUE ESTAN INMEDIATAMENTE ANTES DE UNO IMPAR.
+byte Cantidad_Digitos_Pares_Antes_Impar(Cardinal n){
+byte i, na;
+	if(n<10){
+	i=0;
+	}else{
+		na=n%100;
+		i=Cantidad_Digitos_Pares_Antes_Impar(n/100);
+		if (((na/10)%2==0) && ((na % 10)%2!=0)) {
+			i++;
+		}
+	}
+		return i;
+}
+
+
+
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
 //            			 LLAMADA A LOS ALGORITMOS                          //
 //---------------------------------------------------------------------------
 void __fastcall TUCFormulario::BtGrpEjemploItems1Click(TObject *Sender)
@@ -78,6 +97,12 @@ Mostrar_n_num_naturales(valor_entero);
 //PROGRAMA QUE CUENTA LA CANTIDAD LOS NÚMEROS NATURALES INGRESADOS POR TECLADO.
 
 void __fastcall TUCFormulario::BtGrpNumerosItems12Click(TObject *Sender)
+{
+	txtSalida->Text= (IntToStr(Mostrar_cantidad_numeros_naturales(StrToInt(txtEntrada->Text))));
+}
+//---------------------------------------------------------------------------
+//PROGRAMA QUE MUESTRA LA CANTIDAD DE DIGITOS PARES DE UN NUMERO
+void __fastcall TUCFormulario::BtGrpNumerosItems6Click(TObject *Sender)
 {
 	txtSalida->Text= (IntToStr(Mostrar_cantidad_numeros_naturales(StrToInt(txtEntrada->Text))));
 }

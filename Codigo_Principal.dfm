@@ -111,6 +111,7 @@ object UCFormulario: TUCFormulario
             end
             item
               Caption = 'PROGRAMA QUE MUESTRA LA CANTIDAD DE DIGITOS PARES DE UN NUMERO'
+              OnClick = BtGrpNumerosItems6Click
             end
             item
               Caption = 'PROGRAMA QUE MUESTRA LA CANTIDAD DE DIGITOS IMPARES DE UN NUMERO'
