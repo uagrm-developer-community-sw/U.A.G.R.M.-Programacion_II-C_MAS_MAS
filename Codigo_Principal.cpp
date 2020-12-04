@@ -45,18 +45,22 @@ void Mostrar_n_num_naturales(int n){
 }
 
 //---------------------------------------------------------------------------
-int Mostrar_numeros_naturales(int n){
+//PROGRAMA QUE CUENTA LA CANTIDAD LOS NÚMEROS NATURALES INGRESADOS POR TECLADO.
+int Mostrar_cantidad_numeros_naturales(int n){
 	int c=0;
-	if(n!=0){
-		Mostrar_numeros_naturales(n/10);
-		c++;
+	if(n<10){
+	c = 1;
+	}else{
+		c=c+1;
+		Mostrar_cantidad_numeros_naturales(n/10);
 	}
-	return c
+	return c;
 }
 
 
 //---------------------------------------------------------------------------
-
+//            			 LLAMADA A LOS ALGORITMOS
+//---------------------------------------------------------------------------
 void __fastcall TUCFormulario::BtGrpEjemploItems1Click(TObject *Sender)
 {
 String cadena="hola bolivia";
@@ -73,4 +77,11 @@ Mostrar_n_num_naturales(valor_entero);
 }
 //---------------------------------------------------------------------------
 
+//PROGRAMA QUE CUENTA LA CANTIDAD LOS NÚMEROS NATURALES INGRESADOS POR TECLADO.
+
+void __fastcall TUCFormulario::BtGrpNumerosItems12Click(TObject *Sender)
+{
+	txtSalida->Text= (IntToStr(Mostrar_cantidad_numeros_naturales(StrToInt(txtEntrada->Text))));
+}
+//---------------------------------------------------------------------------
 

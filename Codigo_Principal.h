@@ -47,6 +47,7 @@ __published:	// IDE-managed Components
 	void __fastcall BtGrpEjemploItems0Click(TObject *Sender);
 	void __fastcall BtGrpEjemploItems1Click(TObject *Sender);
 	void __fastcall BtGrpNumerosItems0Click(TObject *Sender);
+	void __fastcall BtGrpNumerosItems12Click(TObject *Sender);
 
 
 private:	// User declarations

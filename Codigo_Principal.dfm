@@ -129,6 +129,7 @@ object UCFormulario: TUCFormulario
             end
             item
               Caption = 'PROGRAMA QUE CUENTA LOS NUMEROS NATURALES'
+              OnClick = BtGrpNumerosItems12Click
             end>
           TabOrder = 0
         end
