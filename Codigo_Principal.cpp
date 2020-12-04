@@ -51,15 +51,13 @@ int Mostrar_cantidad_numeros_naturales(int n){
 	if(n<10){
 	c = 1;
 	}else{
+		c=Mostrar_cantidad_numeros_naturales(n/10);
 		c=c+1;
-		Mostrar_cantidad_numeros_naturales(n/10);
 	}
 	return c;
 }
-
-
 //---------------------------------------------------------------------------
-//            			 LLAMADA A LOS ALGORITMOS
+//            			 LLAMADA A LOS ALGORITMOS                          //
 //---------------------------------------------------------------------------
 void __fastcall TUCFormulario::BtGrpEjemploItems1Click(TObject *Sender)
 {
