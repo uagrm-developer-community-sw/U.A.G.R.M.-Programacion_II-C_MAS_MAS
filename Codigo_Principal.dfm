@@ -138,6 +138,10 @@ object UCFormulario: TUCFormulario
       object Cadenas: TTabSheet
         Caption = 'Cadenas'
         ImageIndex = 1
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object BtGrpCadenas: TButtonGroup
           Left = 0
           Top = 0
@@ -173,6 +177,10 @@ object UCFormulario: TUCFormulario
       object Vectores: TTabSheet
         Caption = 'Vectores'
         ImageIndex = 2
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object BtGrpVectores: TButtonGroup
           Left = 0
           Top = 0
@@ -248,6 +256,10 @@ object UCFormulario: TUCFormulario
       object Matrices: TTabSheet
         Caption = 'Matrices'
         ImageIndex = 3
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object Label4: TLabel
           Left = 528
           Top = 198
@@ -454,6 +466,10 @@ object UCFormulario: TUCFormulario
       object Ejemplos: TTabSheet
         Caption = 'Ejemplos'
         ImageIndex = 4
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object BtGrpEjemplo: TButtonGroup
           Left = 0
           Top = 0
