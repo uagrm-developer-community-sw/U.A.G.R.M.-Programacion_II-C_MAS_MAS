@@ -49,6 +49,26 @@ __published:	// IDE-managed Components
 	void __fastcall BtGrpNumerosItems0Click(TObject *Sender);
 	void __fastcall BtGrpNumerosItems12Click(TObject *Sender);
 	void __fastcall BtGrpNumerosItems6Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems5Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems6Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems22Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems23Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems24Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems7Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems8Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems9Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems10Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems11Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems12Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems13Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems14Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems15Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems16Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems17Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems18Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems19Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems20Click(TObject *Sender);
+	void __fastcall BtGrpEjemploItems28Click(TObject *Sender);
 
 
 private:	// User declarations

@@ -69,7 +69,7 @@ object UCFormulario: TUCFormulario
       Top = 1
       Width = 752
       Height = 332
-      ActivePage = Numeros
+      ActivePage = Ejemplos
       Align = alTop
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
@@ -86,7 +86,7 @@ object UCFormulario: TUCFormulario
           Width = 744
           Height = 330
           Align = alTop
-          ButtonHeight = 50
+          ButtonHeight = 35
           ButtonWidth = 50
           ButtonOptions = [gboFullSize, gboShowCaptions]
           Items = <
@@ -138,17 +138,13 @@ object UCFormulario: TUCFormulario
       object Cadenas: TTabSheet
         Caption = 'Cadenas'
         ImageIndex = 1
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object BtGrpCadenas: TButtonGroup
           Left = 0
           Top = 0
           Width = 744
           Height = 330
           Align = alTop
-          ButtonHeight = 50
+          ButtonHeight = 35
           ButtonWidth = 50
           ButtonOptions = [gboFullSize, gboShowCaptions]
           Items = <
@@ -177,10 +173,6 @@ object UCFormulario: TUCFormulario
       object Vectores: TTabSheet
         Caption = 'Vectores'
         ImageIndex = 2
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object BtGrpVectores: TButtonGroup
           Left = 0
           Top = 0
@@ -217,8 +209,8 @@ object UCFormulario: TUCFormulario
           Height = 65
           Align = alBottom
           ColCount = 1
-          DefaultColWidth = 80
-          DefaultRowHeight = 40
+          DefaultColWidth = 60
+          DefaultRowHeight = 60
           FixedCols = 0
           RowCount = 1
           FixedRows = 0
@@ -256,10 +248,6 @@ object UCFormulario: TUCFormulario
       object Matrices: TTabSheet
         Caption = 'Matrices'
         ImageIndex = 3
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object Label4: TLabel
           Left = 528
           Top = 198
@@ -293,7 +281,7 @@ object UCFormulario: TUCFormulario
           Width = 511
           Height = 301
           Align = alLeft
-          ButtonHeight = 50
+          ButtonHeight = 35
           ButtonWidth = 50
           ButtonOptions = [gboFullSize, gboShowCaptions]
           Items = <
@@ -466,17 +454,13 @@ object UCFormulario: TUCFormulario
       object Ejemplos: TTabSheet
         Caption = 'Ejemplos'
         ImageIndex = 4
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object BtGrpEjemplo: TButtonGroup
           Left = 0
           Top = 0
           Width = 744
           Height = 305
           Align = alTop
-          ButtonHeight = 50
+          ButtonHeight = 35
           ButtonWidth = 50
           ButtonOptions = [gboFullSize, gboShowCaptions]
           Items = <
@@ -499,63 +483,82 @@ object UCFormulario: TUCFormulario
             end
             item
               Caption = 'isdigit'
+              OnClick = BtGrpEjemploItems5Click
             end
             item
               Caption = 'isalpha'
+              OnClick = BtGrpEjemploItems6Click
             end
             item
               Caption = 'islower'
+              OnClick = BtGrpEjemploItems7Click
             end
             item
               Caption = 'isupper'
+              OnClick = BtGrpEjemploItems8Click
             end
             item
               Caption = 'tolower'
+              OnClick = BtGrpEjemploItems9Click
             end
             item
               Caption = 'toupper'
+              OnClick = BtGrpEjemploItems10Click
             end
             item
               Caption = 'IsEmpty'
+              OnClick = BtGrpEjemploItems11Click
             end
             item
               Caption = 'Length'
+              OnClick = BtGrpEjemploItems12Click
             end
             item
               Caption = 'TrimLeft'
+              OnClick = BtGrpEjemploItems13Click
             end
             item
               Caption = 'TrimRight'
+              OnClick = BtGrpEjemploItems14Click
             end
             item
               Caption = 'Trim'
+              OnClick = BtGrpEjemploItems15Click
             end
             item
               Caption = 'UpperCase'
+              OnClick = BtGrpEjemploItems16Click
             end
             item
               Caption = 'LowerCase'
+              OnClick = BtGrpEjemploItems17Click
             end
             item
               Caption = 'Delete'
+              OnClick = BtGrpEjemploItems18Click
             end
             item
               Caption = 'SubString'
+              OnClick = BtGrpEjemploItems19Click
             end
             item
               Caption = 'Pos'
+              OnClick = BtGrpEjemploItems20Click
             end
             item
               Caption = 'LastDelimiter'
             end
             item
               Caption = 'isalnum'
+              OnClick = BtGrpEjemploItems22Click
             end
             item
               Caption = 'ispunct'
+              OnClick = BtGrpEjemploItems23Click
             end
             item
               Caption = 'isspace'
+              OnClick = BtGrpEjemploItems24Click
             end
             item
               Caption = 'Delete'
@@ -568,6 +571,7 @@ object UCFormulario: TUCFormulario
             end
             item
               Caption = 'LastDelimiter'
+              OnClick = BtGrpEjemploItems28Click
             end>
           TabOrder = 0
         end
