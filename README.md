@@ -5,45 +5,60 @@ U.A.G.R.M. | Materia: Programacion II | Docente: Juan Carlos Contreras | Reposit
 ![IDE: Builder - Rad Studio 10.4 (Sydney)](https://user-images.githubusercontent.com/36086876/96594138-48d2f780-12b8-11eb-943b-62dc0093dc8d.png)
 
 # Ejercicios Numeros:
-- PROGRAMA QUE MUESTRA LOS PRIMEROS N NÚMEROS NATURALES
-- PROGRAMA QUE MUESTRA LOS PRIMEROS N NÚMEROS NATURALES INVERTIDOS
-- PROGRAMA QUE MUESTRA LOS PRIMEROS N NÚMEROS PARES
-- PROGRAMA QUE MUESTRA LOS PRIMEROS N NÚMEROS IMPARES
-- PROGRAMA QUE MUESTRA LA SUMA DE LOS DÍGITOS PARES DE UN NÚMERO
-- PROGRAMA QUE MUESTRA LA SUMA DE LOS DÍGITOS IMPARES DE UN NÚMERO
-- PROGRAMA QUE MUESTRA LA CANTIDAD DE DÍGITOS PARES DE UN NÚMERO
-- PROGRAMA QUE MUESTRA LA CANTIDAD DE DÍGITOS IMPARES DE UN NÚMERO
-- PROGRAMA QUE MUESTRA EL MENOR DÍGITO DE UN NÚMERO
-- PROGRAMA QUE MUESTRA EL MAYOR DÍGITO DE UN NÚMERO
-- PROGRAMA QUE ELIMINA LOS DÍGITOS PARES DE UN NÚMERO
-- PROGRAMA QUE ELIMINA LOS DÍGITOS IMPARES DE UN NÚMERO
+- programa que muestra los primeros n números naturales
+- programa que muestra los primeros n números naturales invertidos
+- programa que muestra los primeros n números pares
+- programa que muestra los primeros n números impares
+- programa que muestra la suma de los dígitos pares de un número
+- programa que muestra la suma de los dígitos impares de un número
+- programa que muestra la cantidad de dígitos pares de un número
+- programa que muestra la cantidad de dígitos impares de un número
+- programa que muestra el menor dígito de un número
+- programa que muestra el mayor dígito de un número
+- programa que elimina los dígitos pares de un número
+- programa que elimina los dígitos impares de un número
 
 
-- PROGRAMA QUE MUESTRA LA SUMA DE LOS DÍGITOS DE UN NÚMERO
-- PROGRAMA QUE SEPARA LOS DÍGITOS PARES E IMPARES DE UN NÚMERO
-- PROGRAMA QUE SEPARA DÍGITOS PARES E IMPARES DE DOS NÚMEROS
-- PROGRAMA QUE JUNTA LOS DÍGITOS DE 2 NÚMEROS EN UN SOLO NÚMERO
-- PROGRAMA PARA ORDENAR UN NÚMERO POR EL MÉTODO INSERTAR
+- programa que muestra la suma de los dígitos de un número
+- programa que separa los dígitos pares e impares de un número
+- programa que separa dígitos pares e impares de dos números
+- programa que junta los dígitos de 2 números en un solo número
+- programa para ordenar un número por el método insertar
 
-- PROGRAMA QUE DEVUELVE TRUE SI UN NÚMERO ESTÁ ORDENADO
-- HACER UN PROGRAMA QUE DEVUELVA TRUE SI UN NÚMERO ESTÁ ORDENADO
-- PROGRAMA QUE DEVUELVE EL N-ÉSIMO TÉRMINO DE LA SERIE DE FIBONACCI
-- PROGRAMA QUE ELEVA UN NÚMERO X A LA N
-- PROGRAMA QUE DEVUELVE TRUE SI UN NÚMERO ES PAR
-- PROGRAMA QUE MUESTRA N VECES HOLA Y UNA VEZ CHAU
-- PROGRAMA QUE MUESTRA EL FACTORIAL DE UN NÚMERO
-- PROGRAMA QUE MUESTRA EL N-ÉSIMO TÉRMINO DE LA SERIE: 0.1.3.7.15.31.63..N
-- PROGRAMA QUE MUESTRA LA SERIE: 1.2.3.6.7.14.15.30...n
-- PROGRAMA QUE MUESTRA LA SUMA DE LA SERIE: 1.2.3.6.7.14.15.30...n
-- PROGRAMA QUE SEPARA LOS DÍGITOS DE UN NÚMERO: X=34876 SALIDA:6,7,8,7,6
-- PROGRAMA QUE MUESTRA SUMA N...
-- PROGRAMA QUE MUESTRA LOS DÍGITOS DE UN NÚMERO
-- PROGRAMA QUE MUESTRA LOS DÍGITOS QUE ESTÉN AL LADO DERECHO DE UN DÍGITO PAR
+- programa que devuelve true si un número está ordenado
+- hacer un programa que devuelva true si un número está ordenado
+- programa que devuelve el enésimo término de la serie de Fibonacci
+- programa que eleva un número x a la n
+- programa que devuelve true si un número es par
+- programa que muestra n veces hola y una vez chau
+- programa que muestra el factorial de un número
+- programa que muestra el enésimo término de la serie: 0.1.3.7.15.31.63..n
+- programa que muestra la serie: 1.2.3.6.7.14.15.30...n
+- programa que muestra la suma de la serie: 1.2.3.6.7.14.15.30...n
+- programa que separa los dígitos de un número: x=34876 salida:6,7,8,7,6
+
 
 ![Numeros](https://user-images.githubusercontent.com/36086876/96597180-85542280-12bb-11eb-91a9-f54d90744dbd.png)
 
 
 # Ejercicios Cadenas:
+- programa que invierte una cadena
+- programa que elimina las vocales de una cadena
+- programa que cuenta la cantidad de palabras de una cadena
+- programa que separa las vocales y consonantes de una cadena
+- programa que cuenta las vocales que están delante de una consonante
+- programa que cuenta la cantidad de vocales de una cadena
+- programa que elimina los espacios de una cadena
+- programa que elimina un carácter de una cadena
+- programa que muestra la palabra larga de una cadena
+- programa que cuenta cantidad de palabras que tenga la letra 'a'
+- programa que muestra si se encuentra la letra 'a' en la cadena
+- procedimiento que elimina las vocales de una cadena
+- función que muestra la cantidad de palabras que tengan al menos una letra 'a'
+- contar las palabras que tengan la letra 'a'
+- programa que verifique si está la letra 'a'
+- programa que cuente las palabras sin vocales
+
 # Ejercicios Vectores:
 # Ejercicios Matrices:
 

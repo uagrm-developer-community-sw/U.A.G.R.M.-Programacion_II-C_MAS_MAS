@@ -61,15 +61,15 @@ object UCFormulario: TUCFormulario
     Left = 0
     Top = 0
     Width = 754
-    Height = 333
+    Height = 313
     Align = alTop
     TabOrder = 0
     object PCMenu: TPageControl
       Left = 1
       Top = 1
       Width = 752
-      Height = 332
-      ActivePage = Ejemplos
+      Height = 312
+      ActivePage = Cadenas
       Align = alTop
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
@@ -80,10 +80,7 @@ object UCFormulario: TUCFormulario
       TabOrder = 0
       object Numeros: TTabSheet
         Caption = 'Numeros'
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
+        ExplicitHeight = 301
         object BtGrpNumeros: TButtonGroup
           Left = 0
           Top = 0
@@ -142,10 +139,7 @@ object UCFormulario: TUCFormulario
       object Cadenas: TTabSheet
         Caption = 'Cadenas'
         ImageIndex = 1
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
+        ExplicitHeight = 301
         object BtGrpCadenas: TButtonGroup
           Left = 0
           Top = 0
@@ -181,10 +175,7 @@ object UCFormulario: TUCFormulario
       object Vectores: TTabSheet
         Caption = 'Vectores'
         ImageIndex = 2
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
+        ExplicitHeight = 301
         object BtGrpVectores: TButtonGroup
           Left = 0
           Top = 0
@@ -216,7 +207,7 @@ object UCFormulario: TUCFormulario
         end
         object StringGrid1: TStringGrid
           Left = 0
-          Top = 236
+          Top = 216
           Width = 744
           Height = 65
           Align = alBottom
@@ -260,10 +251,7 @@ object UCFormulario: TUCFormulario
       object Matrices: TTabSheet
         Caption = 'Matrices'
         ImageIndex = 3
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
+        ExplicitHeight = 301
         object Label4: TLabel
           Left = 528
           Top = 198
@@ -295,7 +283,7 @@ object UCFormulario: TUCFormulario
           Left = 0
           Top = 0
           Width = 511
-          Height = 301
+          Height = 281
           Align = alLeft
           ButtonHeight = 35
           ButtonWidth = 50
@@ -387,6 +375,7 @@ object UCFormulario: TUCFormulario
                 'uierda con inicio arriba derecha'
             end>
           TabOrder = 0
+          ExplicitHeight = 301
         end
         object SGMatriz: TStringGrid
           Left = 517
@@ -470,10 +459,6 @@ object UCFormulario: TUCFormulario
       object Ejemplos: TTabSheet
         Caption = 'Ejemplos'
         ImageIndex = 4
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object BtGrpEjemplo: TButtonGroup
           Left = 0
           Top = 0
@@ -628,7 +613,7 @@ object UCFormulario: TUCFormulario
   end
   object btnCargar: TButton
     Left = 304
-    Top = 339
+    Top = 319
     Width = 130
     Height = 40
     Caption = 'CARGAR'
