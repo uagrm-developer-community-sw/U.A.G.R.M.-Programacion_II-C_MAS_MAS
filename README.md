@@ -4,6 +4,8 @@ U.A.G.R.M. | Materia: Programacion II | Docente: Juan Carlos Contreras | Reposit
 # IMAGEN - RAD STUDIO 10.4 SYDNEY.
 ![IDE: Builder - Rad Studio 10.4 (Sydney)](https://user-images.githubusercontent.com/36086876/96594138-48d2f780-12b8-11eb-943b-62dc0093dc8d.png)
 
+![Numeros](https://user-images.githubusercontent.com/36086876/96597180-85542280-12bb-11eb-91a9-f54d90744dbd.png)
+
 # Ejercicios Numeros:
 - programa que muestra los primeros n números naturales
 - programa que muestra los primeros n números naturales invertidos
@@ -38,7 +40,6 @@ U.A.G.R.M. | Materia: Programacion II | Docente: Juan Carlos Contreras | Reposit
 - programa que separa los dígitos de un número: x=34876 salida:6,7,8,7,6
 
 
-![Numeros](https://user-images.githubusercontent.com/36086876/96597180-85542280-12bb-11eb-91a9-f54d90744dbd.png)
 
 
 # Ejercicios Cadenas:
